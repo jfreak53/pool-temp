@@ -1,6 +1,7 @@
 var config = {};
 
-config.port = 3000;
-config.thingspeak = '';
+config.port = 3000; // Status page port
+config.thingspeak = ''; // Leave blank to disable thingspeak
+config.thingspeakcheck = 5; // Every how many minutes to run thingspeak api
 
 module.exports = config;
