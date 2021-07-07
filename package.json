@@ -1,0 +1,16 @@
+{
+  "name": "pool-temp",
+  "version": "1.0.0",
+  "description": "Pool Temperature monitor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "jfreak53",
+  "dependencies": {
+    "ds18b20-raspi": "^0.3.6",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "pug": "^3.0.2"
+  }
+}
